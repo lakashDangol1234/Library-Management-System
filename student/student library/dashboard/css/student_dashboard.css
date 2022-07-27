@@ -1,0 +1,13 @@
+/*admin panel content*/
+.back-widget-set {
+  box-shadow: 0 1px 10px rgba(29, 34, 47, 0.1);
+}
+.back-widget-set:hover {
+  box-shadow: 0 5px 40px rgba(29, 34, 47, 0.15);
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.back-widget-set i{
+    margin-bottom:5px;
+}

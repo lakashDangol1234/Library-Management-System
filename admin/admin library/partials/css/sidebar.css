@@ -1,0 +1,21 @@
+/* Sidebar */
+#sidebarPopulator {
+  color: white;
+  padding-right: 1.5rem;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#menu li {
+  width: 100%;
+}
+#menu li:hover {
+  background-color: rgb(149, 147, 147);
+  border-radius: 10px;
+}
+#menu li a {
+  color: white;
+}
+#menu li a:hover {
+  color: black;
+}

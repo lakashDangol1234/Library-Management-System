@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Farro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+  --font-1: "Baloo Bhaina 2", cursive;
+  --font-2: "Roboto", sans-serif;
+  --font-3: "Noto Sans", sans-serif;
+  --font-4: 'Lato', sans-serif;
+  --font-5:'Farro' , sans-serif;
+  --font-6:'KoHo', sans-serif;
+  --font-7: 'Pattaya', sans-serif;
+  --font-8: 'Anton', sans-serif;
+  --font-9: 'Red Hat Display', sans-serif;
+  --font-10: 'Roboto Slab', serif;
+  --font-11: 'Rubik', sans-serif;
+}
+
+.font1 {
+  font-family: var(--font-1);
+}
+.font2 {
+  font-family: var(--font-2);
+}
+.font3 {
+  font-family: var(--font-3);
+}
+.font4 {
+  font-family: var(--font-4);
+}
+.font5 {
+  font-family: var(--font-5);
+}
+.font6 {
+  font-family: var(--font-6);
+}
+.font7 {
+  font-family: var(--font-7);
+}
+.font8 {
+  font-family: var(--font-8);
+}
+.font9 {
+  font-family: var(--font-9);
+}
+.font10{
+  font-family: var(--font-10);
+}
+.font11{
+  font-family: var(--font-11);
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.trans_200{
+  transition: all 200ms ease;
+}
+
+.ml-auto{
+  margin-left:auto !important;
+}
+
+@keyframes fade-in{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out{
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation-name: fade-in;
+}
+.fade-out{
+  animation-name: fade-out;
+}
